@@ -1,0 +1,126 @@
+body {
+  background-color: #F7F7F7;
+}
+.nav-header {
+  z-index: 9999;
+}
+.wrap .container .header .page-title {
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: 20px;
+}
+.wrap .container .content:before,
+.wrap .container .content:after {
+  content: " ";
+  display: table;
+}
+.wrap .container .content:after {
+  clear: both;
+}
+.wrap .container .content .left {
+  width: 682px;
+  padding-right: 16px;
+}
+.wrap .container .content .left .player {
+  width: 100%;
+  height: 500px;
+  background-color: #000011;
+}
+.wrap .container .content .left .more {
+  padding: 16px 0;
+}
+.wrap .container .content .left .more .share {
+  width: 70%;
+}
+.wrap .container .content .left .more .share .share-info {
+  line-height: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+  color: #9b9b9b;
+  font-size: 14px;
+  font-weight: normal;
+}
+.wrap .container .content .left .more .share .share-icon {
+  display: inline-block;
+  width: 32px;
+}
+.wrap .container .content .left .more .share .share-icon img {
+  width: 100%;
+}
+.wrap .container .content .left .more .share ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wrap .container .content .left .more .share ul li {
+  display: inline-block;
+}
+.wrap .container .content .left .more .share ul li a {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+.wrap .container .content .left .more .share ul li a img {
+  width: 100%;
+  display: block;
+}
+.wrap .container .content .left .more .published {
+  width: 30%;
+  line-height: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  color: #9b9b9b;
+  font-size: 14px;
+  font-weight: normal;
+}
+.wrap .container .content .left .more:before,
+.wrap .container .content .left .more:after {
+  content: " ";
+  display: table;
+}
+.wrap .container .content .left .more:after {
+  clear: both;
+}
+.wrap .container .content .left .intro {
+  border-top: 1px solid #e8e8e8;
+  margin-top: 16px;
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+.wrap .container .content .left .intro .intro-desc,
+.wrap .container .content .left .intro .intro-title {
+  color: #9b9b9b;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+.wrap .container .content .left .intro .intro-title {
+  padding-right: 0;
+  width: inherit !important;
+}
+.wrap .container .content .left .intro .intro-desc {
+  width: 620px;
+  margin: 0;
+}
+.wrap .container .content .left .intro:before,
+.wrap .container .content .left .intro:after {
+  content: " ";
+  display: table;
+}
+.wrap .container .content .left .intro:after {
+  clear: both;
+}
+.wrap .container .content .right {
+  width: 294px;
+}
+.wrap .container .content .right a {
+  width: 100%;
+}
+.wrap .container .content .right a img {
+  width: 100%;
+  max-width: 100%;
+}

@@ -1,0 +1,265 @@
+.gray-darker {
+  color: #222222;
+}
+.gray-dark {
+  color: #333333;
+}
+.gray {
+  color: #555555;
+}
+.gray-light {
+  color: #777777;
+}
+.gray-lighter {
+  color: #eeeeee;
+}
+.col-1 {
+  width: 8.33333333% !important;
+}
+.col-2 {
+  width: 16.66666667% !important;
+}
+.col-3 {
+  width: 25% !important;
+}
+.col-4 {
+  width: 33.33333333% !important;
+}
+.col-5 {
+  width: 41.66666667% !important;
+}
+.col-6 {
+  width: 50% !important;
+}
+.col-7 {
+  width: 58.33333333% !important;
+}
+.col-8 {
+  width: 66.66666667% !important;
+}
+.col-9 {
+  width: 75% !important;
+}
+.col-10 {
+  width: 83.33333333% !important;
+}
+.col-11 {
+  width: 91.66666667% !important;
+}
+.col-12 {
+  width: 100% !important;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+* {
+  font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, 'Source Han Sans TC', 'Source Han Sans', 'Nimbus Sans L', 'Liberation Sans', 'Hiragino Sans GB', 'Nota Han Sans', 'Microsoft YaHei', 'Droid Sans', 'Droid Sans Fallback', 'Wenquanyi Micro Hei ', 'WenQuanYi Zen Hei', 'ST Heiti', SimHei, 'WenQuanYi Zen Hei Sharp', sans-serif;
+}
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+}
+.left {
+  float: left !important;
+}
+.right {
+  float: right !important;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clearfix {
+  clear: both;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.show {
+  display: block !important;
+}
+.text-right {
+  text-align: right;
+}
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1024px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+/* ----------- Large Screens ----------- */
+/* ----------- Retina Screens ----------- */
+body {
+  background-color: #EFF0F4;
+}
+.z-1 {
+  z-index: 1;
+}
+.login {
+  padding: 4em 0;
+  margin: auto;
+}
+.btn-md {
+  margin: 0px;
+  padding: 0px 13px;
+  height: 28px;
+  line-height: 28px;
+  font-weight: normal;
+}
+.button-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.button-danger:hover,
+.button-danger:active,
+.button-danger:focus {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.btn-group-sm .btn {
+  margin: 0 9px;
+  padding: 0 13px;
+}
+.modal-footer .btn,
+.modal-footer .btn-flat {
+  margin-right: 10px!important;
+}
+.modal.modal-fixed-footer.small {
+  width: 320px;
+  height: 240px;
+}
+table {
+  border-spacing: 0;
+}
+table tr.close {
+  display: none;
+}
+tr.sub-ct {
+  background-color: #E7E7E7;
+}
+.sub-table {
+  padding: 0 20px;
+  margin-bottom: 0px;
+}
+.has-act {
+  cursor: pointer;
+}
+.has-act:hover {
+  background-color: #f5f5f5;
+}
+.nav-header {
+  margin-left: 240px;
+}
+nav .brand-logo {
+  font-size: 32px;
+  padding: 0 10px;
+}
+.left-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 240px;
+  height: 100%;
+  overflow-y: auto;
+  background: #424F63;
+}
+.left-nav .brand {
+  padding: 17px 0;
+  display: block;
+  box-shadow: 0 3px 0 #353f4f;
+  text-align: center;
+}
+.left-nav .brand img {
+  display: inline-block;
+  width: 138px;
+  vertical-align: middle;
+}
+.left-nav .title {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-bottom: solid 3px #353f4f;
+}
+.left-nav ul li {
+  list-style: none;
+  margin: 0;
+}
+.left-nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+.left-nav ul li a:hover,
+.left-nav ul li a:active,
+.left-nav ul li a.active {
+  background-color: #353f4f;
+  color: #65cea7;
+}
+.left-nav ul.menus {
+  margin: 1em 0;
+}
+.left-nav ul.actions {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  border-top: solid 3px #353f4f;
+}
+.wrap {
+  margin-left: 240px;
+  padding: 40px;
+  min-width: 1024px;
+  width: auto;
+}
+.wrap.login-page {
+  margin: 0;
+  height: 100%;
+  padding: 80px 0 0 0;
+}
+.wrap .card {
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+.wrap .card.img-card {
+  overflow: visible;
+}
+.wrap .card .title {
+  padding: 15px;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  font-weight: bold;
+}
+.wrap .card .card-body {
+  padding: 15px;
+}
+.wrap .card .input-md input[type="email"],
+.wrap .card .input-md input[type="number"],
+.wrap .card .input-md input[type="search"],
+.wrap .card .input-md input[type="text"],
+.wrap .card .input-md input[type="tel"],
+.wrap .card .input-md input[type="url"],
+.wrap .card .input-md input[type="password"] {
+  height: 30px;
+}
